@@ -32,26 +32,26 @@
 //  Based on original Protocol Buffers design by
 //  Sanjay Ghemawat, Jeff Dean, and others.
 
-#include <google/protobuf/stubs/casts.h>
-#include <google/protobuf/stubs/strutil.h>
-#include <google/protobuf/test_util.h>
-#include <google/protobuf/test_util2.h>
-#include <google/protobuf/unittest.pb.h>
-#include <google/protobuf/unittest_mset.pb.h>
-#include <google/protobuf/io/coded_stream.h>
-#include <google/protobuf/io/zero_copy_stream_impl.h>
-#include <google/protobuf/descriptor.pb.h>
-#include <google/protobuf/arena.h>
-#include <google/protobuf/descriptor.h>
-#include <google/protobuf/dynamic_message.h>
-#include <google/protobuf/extension_set.h>
-#include <google/protobuf/wire_format.h>
+#include "stubs/casts.h"
+#include "stubs/strutil.h"
+#include "test_util.h"
+#include "test_util2.h"
+#include "unittest.pb.h"
+#include "unittest_mset.pb.h"
+#include "io/coded_stream.h"
+#include "io/zero_copy_stream_impl.h"
+#include "descriptor.pb.h"
+#include "arena.h"
+#include "descriptor.h"
+#include "dynamic_message.h"
+#include "extension_set.h"
+#include "wire_format.h"
 
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/testing/googletest.h>
+#include "stubs/logging.h"
+#include "stubs/common.h"
+#include "testing/googletest.h"
 #include <gtest/gtest.h>
-#include <google/protobuf/stubs/stl_util.h>
+#include "stubs/stl_util.h"
 
 
 namespace google {

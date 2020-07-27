@@ -110,8 +110,8 @@
 
 #include <string>
 
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/port_def.inc>
+#include "../stubs/common.h"
+#include "../port_def.inc"
 
 
 namespace google {
@@ -248,6 +248,6 @@ class PROTOBUF_EXPORT ZeroCopyOutputStream {
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "../port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_IO_ZERO_COPY_STREAM_H__

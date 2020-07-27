@@ -31,14 +31,14 @@
 #ifndef GOOGLE_PROTOBUF_MAP_TEST_UTIL_H__
 #define GOOGLE_PROTOBUF_MAP_TEST_UTIL_H__
 
-#include <google/protobuf/map_unittest.pb.h>
+#include "map_unittest.pb.h"
 
 #define UNITTEST ::protobuf_unittest
 // Must define UNITTEST before including map_test_util.inc.
-#include <google/protobuf/map_test_util.inc>
+#include "map_test_util.inc"
 #undef UNITTEST
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 namespace google {
 namespace protobuf {
@@ -1561,6 +1561,6 @@ inline void MapReflectionTester::ExpectClearViaReflectionIterator(
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_MAP_TEST_UTIL_H__

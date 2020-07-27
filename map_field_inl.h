@@ -33,10 +33,10 @@
 
 #include <memory>
 
-#include <google/protobuf/stubs/casts.h>
-#include <google/protobuf/map.h>
-#include <google/protobuf/map_field.h>
-#include <google/protobuf/map_type_handler.h>
+#include "stubs/casts.h"
+#include "map.h"
+#include "map_field.h"
+#include "map_type_handler.h"
 
 #ifdef SWIG
 #error "You cannot SWIG proto headers"

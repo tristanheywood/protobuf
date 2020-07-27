@@ -42,17 +42,17 @@
 #include <climits>
 #include <string>
 
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/io/coded_stream.h>
-#include <google/protobuf/arena.h>
-#include <google/protobuf/metadata_lite.h>
-#include <google/protobuf/stubs/once.h>
-#include <google/protobuf/port.h>
-#include <google/protobuf/stubs/strutil.h>
+#include "stubs/common.h"
+#include "stubs/logging.h"
+#include "io/coded_stream.h"
+#include "arena.h"
+#include "metadata_lite.h"
+#include "stubs/once.h"
+#include "port.h"
+#include "stubs/strutil.h"
 
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 #ifdef SWIG
 #error "You cannot SWIG proto headers"
@@ -598,6 +598,6 @@ T* OnShutdownDelete(T* p) {
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_MESSAGE_LITE_H__

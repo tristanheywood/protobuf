@@ -42,14 +42,14 @@
 
 #include <string>
 
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/io/coded_stream.h>
-#include <google/protobuf/arenastring.h>
-#include <google/protobuf/message_lite.h>
-#include <google/protobuf/port.h>
-#include <google/protobuf/repeated_field.h>
-#include <google/protobuf/stubs/casts.h>
+#include "stubs/common.h"
+#include "stubs/logging.h"
+#include "io/coded_stream.h"
+#include "arenastring.h"
+#include "message_lite.h"
+#include "port.h"
+#include "repeated_field.h"
+#include "stubs/casts.h"
 
 // Do UTF-8 validation on string type in Debug build only
 #ifndef NDEBUG
@@ -71,7 +71,7 @@ namespace google {
 namespace protobuf {
 namespace internal {
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 // This class is for internal use by the protocol buffer library and by
 // protocol-compiler-generated message classes.  It must not be called
@@ -1861,6 +1861,6 @@ bool ParseMessageSetItemImpl(io::CodedInputStream* input, MS ms) {
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_WIRE_FORMAT_LITE_H__

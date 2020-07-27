@@ -28,17 +28,17 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include <google/protobuf/io/strtod.h>
+#include "../io/strtod.h"
 
 #include <cstdio>
 #include <cstring>
 #include <limits>
 #include <string>
 
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/common.h>
+#include "../stubs/logging.h"
+#include "../stubs/common.h"
 
-#include <google/protobuf/stubs/strutil.h>
+#include "../stubs/strutil.h"
 
 namespace google {
 namespace protobuf {

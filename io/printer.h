@@ -42,8 +42,8 @@
 #include <string>
 #include <vector>
 
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/port_def.inc>
+#include "../stubs/common.h"
+#include "../port_def.inc"
 
 namespace google {
 namespace protobuf {
@@ -380,6 +380,6 @@ class PROTOBUF_EXPORT Printer {
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "../port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_IO_PRINTER_H__

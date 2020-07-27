@@ -28,14 +28,14 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include <google/protobuf/any.h>
+#include "any.h"
 
-#include <google/protobuf/arenastring.h>
-#include <google/protobuf/descriptor.h>
-#include <google/protobuf/generated_message_util.h>
-#include <google/protobuf/message.h>
+#include "arenastring.h"
+#include "descriptor.h"
+#include "generated_message_util.h"
+#include "message.h"
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 namespace google {
 namespace protobuf {

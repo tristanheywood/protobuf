@@ -62,29 +62,29 @@
 // Item 8 of "More Effective C++" discusses this in more detail, though
 // I don't have the book on me right now so I'm not sure.
 
-#include <google/protobuf/dynamic_message.h>
+#include "dynamic_message.h"
 
 #include <algorithm>
 #include <cstddef>
 #include <memory>
 #include <unordered_map>
 
-#include <google/protobuf/descriptor.pb.h>
-#include <google/protobuf/descriptor.h>
-#include <google/protobuf/generated_message_reflection.h>
-#include <google/protobuf/generated_message_util.h>
-#include <google/protobuf/unknown_field_set.h>
-#include <google/protobuf/stubs/hash.h>
-#include <google/protobuf/arenastring.h>
-#include <google/protobuf/extension_set.h>
-#include <google/protobuf/map_field.h>
-#include <google/protobuf/map_field_inl.h>
-#include <google/protobuf/map_type_handler.h>
-#include <google/protobuf/reflection_ops.h>
-#include <google/protobuf/repeated_field.h>
-#include <google/protobuf/wire_format.h>
+#include "descriptor.pb.h"
+#include "descriptor.h"
+#include "generated_message_reflection.h"
+#include "generated_message_util.h"
+#include "unknown_field_set.h"
+#include "stubs/hash.h"
+#include "arenastring.h"
+#include "extension_set.h"
+#include "map_field.h"
+#include "map_field_inl.h"
+#include "map_type_handler.h"
+#include "reflection_ops.h"
+#include "repeated_field.h"
+#include "wire_format.h"
 
-#include <google/protobuf/port_def.inc>  // NOLINT
+#include "port_def.inc"  // NOLINT
 
 namespace google {
 namespace protobuf {
@@ -914,4 +914,4 @@ void DynamicMessageFactory::DeleteDefaultOneofInstance(
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>  // NOLINT
+#include "port_undef.inc"  // NOLINT

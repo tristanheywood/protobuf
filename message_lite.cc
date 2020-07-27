@@ -33,29 +33,29 @@
 //  Based on original Protocol Buffers design by
 //  Sanjay Ghemawat, Jeff Dean, and others.
 
-#include <google/protobuf/message_lite.h>
+#include "message_lite.h"
 
 #include <climits>
 #include <cstdint>
 #include <string>
 
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/stubs/stringprintf.h>
-#include <google/protobuf/parse_context.h>
-#include <google/protobuf/io/coded_stream.h>
-#include <google/protobuf/io/zero_copy_stream.h>
-#include <google/protobuf/io/zero_copy_stream_impl.h>
-#include <google/protobuf/io/zero_copy_stream_impl_lite.h>
-#include <google/protobuf/arena.h>
-#include <google/protobuf/generated_message_table_driven.h>
-#include <google/protobuf/generated_message_util.h>
-#include <google/protobuf/repeated_field.h>
-#include <google/protobuf/stubs/strutil.h>
-#include <google/protobuf/stubs/stl_util.h>
-#include <google/protobuf/stubs/mutex.h>
+#include "stubs/logging.h"
+#include "stubs/common.h"
+#include "stubs/stringprintf.h"
+#include "parse_context.h"
+#include "io/coded_stream.h"
+#include "io/zero_copy_stream.h"
+#include "io/zero_copy_stream_impl.h"
+#include "io/zero_copy_stream_impl_lite.h"
+#include "arena.h"
+#include "generated_message_table_driven.h"
+#include "generated_message_util.h"
+#include "repeated_field.h"
+#include "stubs/strutil.h"
+#include "stubs/stl_util.h"
+#include "stubs/mutex.h"
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 namespace google {
 namespace protobuf {

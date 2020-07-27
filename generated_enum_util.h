@@ -33,10 +33,10 @@
 
 #include <type_traits>
 
-#include <google/protobuf/message_lite.h>
-#include <google/protobuf/stubs/strutil.h>
+#include "message_lite.h"
+#include "stubs/strutil.h"
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 #ifdef SWIG
 #error "You cannot SWIG proto headers"
@@ -78,6 +78,6 @@ PROTOBUF_EXPORT bool InitializeEnumStrings(
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_GENERATED_ENUM_UTIL_H__

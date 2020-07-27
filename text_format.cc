@@ -32,7 +32,7 @@
 //  Based on original Protocol Buffers design by
 //  Sanjay Ghemawat, Jeff Dean, and others.
 
-#include <google/protobuf/text_format.h>
+#include "text_format.h"
 
 #include <float.h>
 #include <stdio.h>
@@ -43,25 +43,25 @@
 #include <limits>
 #include <vector>
 
-#include <google/protobuf/stubs/stringprintf.h>
-#include <google/protobuf/any.h>
-#include <google/protobuf/descriptor.pb.h>
-#include <google/protobuf/io/coded_stream.h>
-#include <google/protobuf/io/tokenizer.h>
-#include <google/protobuf/io/zero_copy_stream.h>
-#include <google/protobuf/io/zero_copy_stream_impl.h>
-#include <google/protobuf/descriptor.h>
-#include <google/protobuf/dynamic_message.h>
-#include <google/protobuf/map_field.h>
-#include <google/protobuf/message.h>
-#include <google/protobuf/port_def.inc>
-#include <google/protobuf/repeated_field.h>
-#include <google/protobuf/unknown_field_set.h>
-#include <google/protobuf/wire_format_lite.h>
-#include <google/protobuf/stubs/strutil.h>
-#include <google/protobuf/io/strtod.h>
-#include <google/protobuf/stubs/map_util.h>
-#include <google/protobuf/stubs/stl_util.h>
+#include "stubs/stringprintf.h"
+#include "any.h"
+#include "descriptor.pb.h"
+#include "io/coded_stream.h"
+#include "io/tokenizer.h"
+#include "io/zero_copy_stream.h"
+#include "io/zero_copy_stream_impl.h"
+#include "descriptor.h"
+#include "dynamic_message.h"
+#include "map_field.h"
+#include "message.h"
+#include "port_def.inc"
+#include "repeated_field.h"
+#include "unknown_field_set.h"
+#include "wire_format_lite.h"
+#include "stubs/strutil.h"
+#include "io/strtod.h"
+#include "stubs/map_util.h"
+#include "stubs/stl_util.h"
 
 
 namespace google {

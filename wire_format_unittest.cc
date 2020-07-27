@@ -32,31 +32,31 @@
 //  Based on original Protocol Buffers design by
 //  Sanjay Ghemawat, Jeff Dean, and others.
 
-#include <google/protobuf/wire_format.h>
+#include "wire_format.h"
 
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/test_util.h>
-#include <google/protobuf/test_util2.h>
-#include <google/protobuf/unittest.pb.h>
-#include <google/protobuf/unittest_mset.pb.h>
-#include <google/protobuf/unittest_mset_wire_format.pb.h>
-#include <google/protobuf/unittest_proto3_arena.pb.h>
-#include <google/protobuf/io/coded_stream.h>
-#include <google/protobuf/io/zero_copy_stream_impl.h>
-#include <google/protobuf/io/zero_copy_stream_impl_lite.h>
-#include <google/protobuf/descriptor.h>
-#include <google/protobuf/wire_format_lite.h>
-#include <google/protobuf/testing/googletest.h>
+#include "stubs/logging.h"
+#include "stubs/common.h"
+#include "stubs/logging.h"
+#include "test_util.h"
+#include "test_util2.h"
+#include "unittest.pb.h"
+#include "unittest_mset.pb.h"
+#include "unittest_mset_wire_format.pb.h"
+#include "unittest_proto3_arena.pb.h"
+#include "io/coded_stream.h"
+#include "io/zero_copy_stream_impl.h"
+#include "io/zero_copy_stream_impl_lite.h"
+#include "descriptor.h"
+#include "wire_format_lite.h"
+#include "testing/googletest.h"
 #include <gmock/gmock.h>
 #include <gtest/gtest.h>
-#include <google/protobuf/stubs/casts.h>
-#include <google/protobuf/stubs/strutil.h>
-#include <google/protobuf/stubs/stl_util.h>
+#include "stubs/casts.h"
+#include "stubs/strutil.h"
+#include "stubs/stl_util.h"
 
 // clang-format off
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 // clang-format on
 
 namespace google {

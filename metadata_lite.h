@@ -32,11 +32,11 @@
 #define GOOGLE_PROTOBUF_METADATA_LITE_H__
 
 #include <string>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/arena.h>
-#include <google/protobuf/port.h>
+#include "stubs/common.h"
+#include "arena.h"
+#include "port.h"
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 #ifdef SWIG
 #error "You cannot SWIG proto headers"
@@ -243,6 +243,6 @@ class PROTOBUF_EXPORT LiteUnknownFieldSetter {
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_METADATA_LITE_H__

@@ -31,15 +31,15 @@
 #ifndef GOOGLE_PROTOBUF_MAP_ENTRY_H__
 #define GOOGLE_PROTOBUF_MAP_ENTRY_H__
 
-#include <google/protobuf/generated_message_reflection.h>
-#include <google/protobuf/map_entry_lite.h>
-#include <google/protobuf/map_type_handler.h>
-#include <google/protobuf/port.h>
-#include <google/protobuf/reflection_ops.h>
-#include <google/protobuf/unknown_field_set.h>
-#include <google/protobuf/wire_format_lite.h>
+#include "generated_message_reflection.h"
+#include "map_entry_lite.h"
+#include "map_type_handler.h"
+#include "port.h"
+#include "reflection_ops.h"
+#include "unknown_field_set.h"
+#include "wire_format_lite.h"
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 #ifdef SWIG
 #error "You cannot SWIG proto headers"
@@ -162,6 +162,6 @@ struct DeconstructMapEntry<MapEntry<Derived, K, V, key, value, default_enum> > {
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_MAP_ENTRY_H__

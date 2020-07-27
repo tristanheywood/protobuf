@@ -32,28 +32,28 @@
 //  Based on original Protocol Buffers design by
 //  Sanjay Ghemawat, Jeff Dean, and others.
 
-#include <google/protobuf/generated_message_reflection.h>
+#include "generated_message_reflection.h"
 
 #include <algorithm>
 #include <set>
 
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/descriptor.pb.h>
-#include <google/protobuf/descriptor.h>
-#include <google/protobuf/extension_set.h>
-#include <google/protobuf/generated_message_util.h>
-#include <google/protobuf/inlined_string_field.h>
-#include <google/protobuf/map_field.h>
-#include <google/protobuf/map_field_inl.h>
-#include <google/protobuf/stubs/mutex.h>
-#include <google/protobuf/repeated_field.h>
-#include <google/protobuf/unknown_field_set.h>
-#include <google/protobuf/wire_format.h>
-#include <google/protobuf/stubs/strutil.h>
+#include "stubs/logging.h"
+#include "stubs/common.h"
+#include "descriptor.pb.h"
+#include "descriptor.h"
+#include "extension_set.h"
+#include "generated_message_util.h"
+#include "inlined_string_field.h"
+#include "map_field.h"
+#include "map_field_inl.h"
+#include "stubs/mutex.h"
+#include "repeated_field.h"
+#include "unknown_field_set.h"
+#include "wire_format.h"
+#include "stubs/strutil.h"
 
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 #define GOOGLE_PROTOBUF_HAS_ONEOF
 

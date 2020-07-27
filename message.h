@@ -115,19 +115,19 @@
 #include <type_traits>
 #include <vector>
 
-#include <google/protobuf/stubs/casts.h>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/arena.h>
-#include <google/protobuf/descriptor.h>
-#include <google/protobuf/generated_message_reflection.h>
-#include <google/protobuf/message_lite.h>
-#include <google/protobuf/port.h>
+#include "stubs/casts.h"
+#include "stubs/common.h"
+#include "arena.h"
+#include "descriptor.h"
+#include "generated_message_reflection.h"
+#include "message_lite.h"
+#include "port.h"
 
 
 #define GOOGLE_PROTOBUF_HAS_ONEOF
 #define GOOGLE_PROTOBUF_HAS_ARENAS
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 #ifdef SWIG
 #error "You cannot SWIG proto headers"
@@ -1334,6 +1334,6 @@ const Type& Reflection::DefaultRaw(const FieldDescriptor* field) const {
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_MESSAGE_H__

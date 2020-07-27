@@ -37,7 +37,7 @@
 #define GOOGLE_PROTOBUF_PORT_H__
 
 
-#include <google/protobuf/stubs/port.h>
+#include "stubs/port.h"
 
 
 #endif  // GOOGLE_PROTOBUF_PORT_H__

@@ -88,15 +88,15 @@
 // I'd love to hear about other alternatives, though, as this code isn't
 // exactly pretty.
 
-#include <google/protobuf/io/tokenizer.h>
+#include "../io/tokenizer.h"
 
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/stringprintf.h>
-#include <google/protobuf/stubs/strutil.h>
-#include <google/protobuf/io/strtod.h>
-#include <google/protobuf/io/zero_copy_stream.h>
-#include <google/protobuf/stubs/stl_util.h>
+#include "../stubs/common.h"
+#include "../stubs/logging.h"
+#include "../stubs/stringprintf.h"
+#include "../stubs/strutil.h"
+#include "../io/strtod.h"
+#include "../io/zero_copy_stream.h"
+#include "../stubs/stl_util.h"
 
 namespace google {
 namespace protobuf {

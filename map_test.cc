@@ -46,41 +46,41 @@
 #include <unordered_set>
 #include <vector>
 
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/stubs/stringprintf.h>
-#include <google/protobuf/testing/file.h>
-#include <google/protobuf/arena_test_util.h>
-#include <google/protobuf/map_proto2_unittest.pb.h>
-#include <google/protobuf/map_test_util.h>
-#include <google/protobuf/map_unittest.pb.h>
-#include <google/protobuf/test_util.h>
-#include <google/protobuf/test_util2.h>
-#include <google/protobuf/unittest.pb.h>
-#include <google/protobuf/io/coded_stream.h>
-#include <google/protobuf/io/tokenizer.h>
-#include <google/protobuf/io/zero_copy_stream_impl.h>
-#include <google/protobuf/descriptor.pb.h>
-#include <google/protobuf/descriptor.h>
-#include <google/protobuf/descriptor_database.h>
-#include <google/protobuf/dynamic_message.h>
-#include <google/protobuf/map.h>
-#include <google/protobuf/map_field_inl.h>
-#include <google/protobuf/message.h>
-#include <google/protobuf/reflection.h>
-#include <google/protobuf/reflection_ops.h>
-#include <google/protobuf/text_format.h>
-#include <google/protobuf/wire_format.h>
-#include <google/protobuf/util/message_differencer.h>
-#include <google/protobuf/util/time_util.h>
+#include "stubs/logging.h"
+#include "stubs/common.h"
+#include "stubs/stringprintf.h"
+#include "testing/file.h"
+#include "arena_test_util.h"
+#include "map_proto2_unittest.pb.h"
+#include "map_test_util.h"
+#include "map_unittest.pb.h"
+#include "test_util.h"
+#include "test_util2.h"
+#include "unittest.pb.h"
+#include "io/coded_stream.h"
+#include "io/tokenizer.h"
+#include "io/zero_copy_stream_impl.h"
+#include "descriptor.pb.h"
+#include "descriptor.h"
+#include "descriptor_database.h"
+#include "dynamic_message.h"
+#include "map.h"
+#include "map_field_inl.h"
+#include "message.h"
+#include "reflection.h"
+#include "reflection_ops.h"
+#include "text_format.h"
+#include "wire_format.h"
+#include "util/message_differencer.h"
+#include "util/time_util.h"
 #include <gmock/gmock.h>
-#include <google/protobuf/testing/googletest.h>
+#include "testing/googletest.h"
 #include <gtest/gtest.h>
-#include <google/protobuf/stubs/casts.h>
-#include <google/protobuf/stubs/substitute.h>
+#include "stubs/casts.h"
+#include "stubs/substitute.h"
 
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 namespace google {
 namespace protobuf {

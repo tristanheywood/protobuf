@@ -31,17 +31,17 @@
 #ifndef GOOGLE_PROTOBUF_GENERATED_MESSAGE_TABLE_DRIVEN_LITE_H__
 #define GOOGLE_PROTOBUF_GENERATED_MESSAGE_TABLE_DRIVEN_LITE_H__
 
-#include <google/protobuf/io/zero_copy_stream_impl_lite.h>
-#include <google/protobuf/extension_set.h>
-#include <google/protobuf/generated_message_table_driven.h>
-#include <google/protobuf/implicit_weak_message.h>
-#include <google/protobuf/inlined_string_field.h>
-#include <google/protobuf/repeated_field.h>
-#include <google/protobuf/wire_format_lite.h>
+#include "io/zero_copy_stream_impl_lite.h"
+#include "extension_set.h"
+#include "generated_message_table_driven.h"
+#include "implicit_weak_message.h"
+#include "inlined_string_field.h"
+#include "repeated_field.h"
+#include "wire_format_lite.h"
 #include <type_traits>
 
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 namespace google {
 namespace protobuf {
@@ -871,6 +871,6 @@ bool MergePartialFromCodedStreamImpl(MessageLite* msg, const ParseTable& table,
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_GENERATED_MESSAGE_TABLE_DRIVEN_LITE_H__

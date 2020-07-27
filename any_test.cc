@@ -28,8 +28,8 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include <google/protobuf/any_test.pb.h>
-#include <google/protobuf/unittest.pb.h>
+#include "any_test.pb.h"
+#include "unittest.pb.h"
 #include <gtest/gtest.h>
 
 

@@ -35,25 +35,25 @@
 // This test is testing a lot more than just the UnknownFieldSet class.  It
 // tests handling of unknown fields throughout the system.
 
-#include <google/protobuf/unknown_field_set.h>
+#include "unknown_field_set.h"
 
 #include <unordered_set>
 
-#include <google/protobuf/stubs/callback.h>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/test_util.h>
-#include <google/protobuf/unittest.pb.h>
-#include <google/protobuf/unittest_lite.pb.h>
-#include <google/protobuf/io/coded_stream.h>
-#include <google/protobuf/io/zero_copy_stream_impl.h>
-#include <google/protobuf/descriptor.h>
-#include <google/protobuf/stubs/mutex.h>
-#include <google/protobuf/wire_format.h>
-#include <google/protobuf/testing/googletest.h>
+#include "stubs/callback.h"
+#include "stubs/common.h"
+#include "stubs/logging.h"
+#include "test_util.h"
+#include "unittest.pb.h"
+#include "unittest_lite.pb.h"
+#include "io/coded_stream.h"
+#include "io/zero_copy_stream_impl.h"
+#include "descriptor.h"
+#include "stubs/mutex.h"
+#include "wire_format.h"
+#include "testing/googletest.h"
 #include <gtest/gtest.h>
-#include <google/protobuf/stubs/time.h>
-#include <google/protobuf/stubs/stl_util.h>
+#include "stubs/time.h"
+#include "stubs/stl_util.h"
 
 namespace google {
 namespace protobuf {

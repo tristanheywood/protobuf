@@ -32,21 +32,21 @@
 //  Based on original Protocol Buffers design by
 //  Sanjay Ghemawat, Jeff Dean, and others.
 
-#include <google/protobuf/wire_format_lite.h>
+#include "wire_format_lite.h"
 
 #include <stack>
 #include <string>
 #include <vector>
 
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/stubs/stringprintf.h>
-#include <google/protobuf/io/coded_stream.h>
-#include <google/protobuf/io/zero_copy_stream.h>
-#include <google/protobuf/io/zero_copy_stream_impl_lite.h>
+#include "stubs/logging.h"
+#include "stubs/common.h"
+#include "stubs/stringprintf.h"
+#include "io/coded_stream.h"
+#include "io/zero_copy_stream.h"
+#include "io/zero_copy_stream_impl_lite.h"
 
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 namespace google {
 namespace protobuf {

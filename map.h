@@ -50,17 +50,17 @@
 #include <string_view>
 #endif  // defined(__cpp_lib_string_view)
 
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/arena.h>
-#include <google/protobuf/generated_enum_util.h>
-#include <google/protobuf/map_type_handler.h>
-#include <google/protobuf/stubs/hash.h>
+#include "stubs/common.h"
+#include "arena.h"
+#include "generated_enum_util.h"
+#include "map_type_handler.h"
+#include "stubs/hash.h"
 
 #ifdef SWIG
 #error "You cannot SWIG proto headers"
 #endif
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 namespace google {
 namespace protobuf {
@@ -1270,6 +1270,6 @@ class Map {
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_MAP_H__

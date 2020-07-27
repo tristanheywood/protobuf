@@ -38,30 +38,30 @@
 #include <memory>
 #include <vector>
 
-#include <google/protobuf/compiler/importer.h>
-#include <google/protobuf/compiler/parser.h>
-#include <google/protobuf/unittest.pb.h>
-#include <google/protobuf/unittest_custom_options.pb.h>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/stringprintf.h>
-#include <google/protobuf/unittest_lazy_dependencies.pb.h>
-#include <google/protobuf/unittest_proto3_arena.pb.h>
-#include <google/protobuf/io/tokenizer.h>
-#include <google/protobuf/io/zero_copy_stream_impl.h>
-#include <google/protobuf/descriptor.pb.h>
-#include <google/protobuf/descriptor.h>
-#include <google/protobuf/descriptor_database.h>
-#include <google/protobuf/dynamic_message.h>
-#include <google/protobuf/text_format.h>
-#include <google/protobuf/stubs/strutil.h>
-#include <google/protobuf/testing/googletest.h>
+#include "compiler/importer.h"
+#include "compiler/parser.h"
+#include "unittest.pb.h"
+#include "unittest_custom_options.pb.h"
+#include "stubs/common.h"
+#include "stubs/logging.h"
+#include "stubs/logging.h"
+#include "stubs/stringprintf.h"
+#include "unittest_lazy_dependencies.pb.h"
+#include "unittest_proto3_arena.pb.h"
+#include "io/tokenizer.h"
+#include "io/zero_copy_stream_impl.h"
+#include "descriptor.pb.h"
+#include "descriptor.h"
+#include "descriptor_database.h"
+#include "dynamic_message.h"
+#include "text_format.h"
+#include "stubs/strutil.h"
+#include "testing/googletest.h"
 #include <gtest/gtest.h>
-#include <google/protobuf/stubs/substitute.h>
+#include "stubs/substitute.h"
 
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 namespace google {
 namespace protobuf {

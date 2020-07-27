@@ -28,17 +28,17 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include <google/protobuf/compiler/cpp/cpp_generator.h>
-#include <google/protobuf/compiler/java/java_generator.h>
-#include <google/protobuf/compiler/js/js_generator.h>
-#include <google/protobuf/compiler/command_line_interface.h>
-#include <google/protobuf/compiler/python/python_generator.h>
-#include <google/protobuf/compiler/csharp/csharp_generator.h>
-#include <google/protobuf/compiler/objectivec/objectivec_generator.h>
-#include <google/protobuf/compiler/php/php_generator.h>
-#include <google/protobuf/compiler/ruby/ruby_generator.h>
+#include "../compiler/cpp/cpp_generator.h"
+#include "../compiler/java/java_generator.h"
+#include "../compiler/js/js_generator.h"
+#include "../compiler/command_line_interface.h"
+#include "../compiler/python/python_generator.h"
+#include "../compiler/csharp/csharp_generator.h"
+#include "../compiler/objectivec/objectivec_generator.h"
+#include "../compiler/php/php_generator.h"
+#include "../compiler/ruby/ruby_generator.h"
 
-#include <google/protobuf/port_def.inc>
+#include "../port_def.inc"
 
 namespace google {
 namespace protobuf {

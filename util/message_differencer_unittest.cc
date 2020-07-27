@@ -39,24 +39,24 @@
 #include <string>
 #include <vector>
 
-#include <google/protobuf/stubs/strutil.h>
+#include "../stubs/strutil.h"
 
-#include <google/protobuf/any_test.pb.h>
-#include <google/protobuf/map_test_util.h>
-#include <google/protobuf/map_unittest.pb.h>
-#include <google/protobuf/test_util.h>
-#include <google/protobuf/unittest.pb.h>
-#include <google/protobuf/io/coded_stream.h>
-#include <google/protobuf/io/zero_copy_stream_impl.h>
-#include <google/protobuf/text_format.h>
-#include <google/protobuf/wire_format.h>
-#include <google/protobuf/util/message_differencer_unittest.pb.h>
-#include <google/protobuf/util/field_comparator.h>
-#include <google/protobuf/util/message_differencer.h>
+#include "../any_test.pb.h"
+#include "../map_test_util.h"
+#include "../map_unittest.pb.h"
+#include "../test_util.h"
+#include "../unittest.pb.h"
+#include "../io/coded_stream.h"
+#include "../io/zero_copy_stream_impl.h"
+#include "../text_format.h"
+#include "../wire_format.h"
+#include "../util/message_differencer_unittest.pb.h"
+#include "../util/field_comparator.h"
+#include "../util/message_differencer.h"
 
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/testing/googletest.h>
+#include "../stubs/logging.h"
+#include "../stubs/common.h"
+#include "../testing/googletest.h"
 #include <gtest/gtest.h>
 
 namespace google {

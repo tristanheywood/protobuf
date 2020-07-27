@@ -34,7 +34,7 @@
 //
 // Recursive descent FTW.
 
-#include <google/protobuf/compiler/parser.h>
+#include "../compiler/parser.h"
 
 #include <float.h>
 
@@ -42,16 +42,16 @@
 #include <unordered_map>
 #include <unordered_set>
 
-#include <google/protobuf/stubs/casts.h>
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/descriptor.pb.h>
-#include <google/protobuf/io/tokenizer.h>
-#include <google/protobuf/descriptor.h>
-#include <google/protobuf/wire_format.h>
-#include <google/protobuf/stubs/strutil.h>
-#include <google/protobuf/stubs/map_util.h>
-#include <google/protobuf/stubs/hash.h>
+#include "../stubs/casts.h"
+#include "../stubs/logging.h"
+#include "../stubs/common.h"
+#include "../descriptor.pb.h"
+#include "../io/tokenizer.h"
+#include "../descriptor.h"
+#include "../wire_format.h"
+#include "../stubs/strutil.h"
+#include "../stubs/map_util.h"
+#include "../stubs/hash.h"
 
 namespace google {
 namespace protobuf {

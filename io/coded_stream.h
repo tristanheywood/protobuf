@@ -138,14 +138,14 @@
 #define PROTOBUF_LITTLE_ENDIAN 1
 #endif
 #endif
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/strutil.h>
-#include <google/protobuf/port.h>
-#include <google/protobuf/stubs/port.h>
+#include "../stubs/common.h"
+#include "../stubs/logging.h"
+#include "../stubs/strutil.h"
+#include "../port.h"
+#include "../stubs/port.h"
 
 
-#include <google/protobuf/port_def.inc>
+#include "../port_def.inc"
 
 namespace google {
 namespace protobuf {
@@ -1709,6 +1709,6 @@ inline uint8* CodedOutputStream::WriteStringToArray(const std::string& str,
 #pragma runtime_checks("c", restore)
 #endif  // _MSC_VER && !defined(__INTEL_COMPILER)
 
-#include <google/protobuf/port_undef.inc>
+#include "../port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_IO_CODED_STREAM_H__

@@ -30,7 +30,7 @@
 
 // Author: kenton@google.com (Kenton Varda)
 
-#include <google/protobuf/compiler/plugin.h>
+#include "../compiler/plugin.h"
 
 #include <iostream>
 #include <set>
@@ -41,13 +41,13 @@
 #include <unistd.h>
 #endif
 
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/compiler/plugin.pb.h>
-#include <google/protobuf/compiler/code_generator.h>
-#include <google/protobuf/io/zero_copy_stream_impl.h>
-#include <google/protobuf/descriptor.h>
-#include <google/protobuf/io/io_win32.h>
+#include "../stubs/logging.h"
+#include "../stubs/common.h"
+#include "../compiler/plugin.pb.h"
+#include "../compiler/code_generator.h"
+#include "../io/zero_copy_stream_impl.h"
+#include "../descriptor.h"
+#include "../io/io_win32.h"
 
 
 namespace google {

@@ -32,27 +32,27 @@
 //  Based on original Protocol Buffers design by
 //  Sanjay Ghemawat, Jeff Dean, and others.
 
-#include <google/protobuf/util/message_differencer.h>
+#include "../util/message_differencer.h"
 
 #include <algorithm>
 #include <functional>
 #include <memory>
 #include <utility>
 
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/stubs/stringprintf.h>
-#include <google/protobuf/io/printer.h>
-#include <google/protobuf/io/zero_copy_stream.h>
-#include <google/protobuf/io/zero_copy_stream_impl.h>
-#include <google/protobuf/descriptor.pb.h>
-#include <google/protobuf/dynamic_message.h>
-#include <google/protobuf/text_format.h>
-#include <google/protobuf/util/field_comparator.h>
-#include <google/protobuf/stubs/strutil.h>
+#include "../stubs/logging.h"
+#include "../stubs/common.h"
+#include "../stubs/stringprintf.h"
+#include "../io/printer.h"
+#include "../io/zero_copy_stream.h"
+#include "../io/zero_copy_stream_impl.h"
+#include "../descriptor.pb.h"
+#include "../dynamic_message.h"
+#include "../text_format.h"
+#include "../util/field_comparator.h"
+#include "../stubs/strutil.h"
 
 // Always include as last one, otherwise it can break compilation
-#include <google/protobuf/port_def.inc>
+#include "../port_def.inc"
 
 namespace google {
 namespace protobuf {

@@ -49,10 +49,10 @@ struct timeval {
 #include <sys/time.h>
 #endif
 
-#include <google/protobuf/duration.pb.h>
-#include <google/protobuf/timestamp.pb.h>
+#include "../duration.pb.h"
+#include "../timestamp.pb.h"
 
-#include <google/protobuf/port_def.inc>
+#include "../port_def.inc"
 
 namespace google {
 namespace protobuf {
@@ -307,6 +307,6 @@ inline std::ostream& operator<<(std::ostream& out, const Timestamp& t) {
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "../port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_UTIL_TIME_UTIL_H__

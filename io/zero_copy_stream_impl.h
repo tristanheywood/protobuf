@@ -44,12 +44,12 @@
 #include <iosfwd>
 #include <string>
 
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/io/zero_copy_stream.h>
-#include <google/protobuf/io/zero_copy_stream_impl_lite.h>
+#include "../stubs/common.h"
+#include "../io/zero_copy_stream.h"
+#include "../io/zero_copy_stream_impl_lite.h"
 
 
-#include <google/protobuf/port_def.inc>
+#include "../port_def.inc"
 
 namespace google {
 namespace protobuf {
@@ -333,6 +333,6 @@ class PROTOBUF_EXPORT ConcatenatingInputStream : public ZeroCopyInputStream {
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "../port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_IO_ZERO_COPY_STREAM_IMPL_H__

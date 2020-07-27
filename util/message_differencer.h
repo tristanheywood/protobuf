@@ -48,13 +48,13 @@
 #include <string>
 #include <vector>
 
-#include <google/protobuf/descriptor.h>  // FieldDescriptor
-#include <google/protobuf/message.h>     // Message
-#include <google/protobuf/unknown_field_set.h>
-#include <google/protobuf/util/field_comparator.h>
+#include "../descriptor.h"  // FieldDescriptor
+#include "../message.h"     // Message
+#include "../unknown_field_set.h"
+#include "../util/field_comparator.h"
 
 // Always include as last one, otherwise it can break compilation
-#include <google/protobuf/port_def.inc>
+#include "../port_def.inc"
 
 namespace google {
 namespace protobuf {
@@ -931,6 +931,6 @@ class PROTOBUF_EXPORT FieldContext {
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "../port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_UTIL_MESSAGE_DIFFERENCER_H__

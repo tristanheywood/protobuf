@@ -1,9 +1,9 @@
-#include <google/protobuf/stubs/time.h>
+#include "../stubs/time.h"
 
 #include <ctime>
 
-#include <google/protobuf/stubs/stringprintf.h>
-#include <google/protobuf/stubs/strutil.h>
+#include "../stubs/stringprintf.h"
+#include "../stubs/strutil.h"
 
 namespace google {
 namespace protobuf {

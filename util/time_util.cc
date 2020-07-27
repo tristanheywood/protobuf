@@ -28,17 +28,17 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include <google/protobuf/util/time_util.h>
+#include "../util/time_util.h"
 
-#include <google/protobuf/stubs/stringprintf.h>
-#include <google/protobuf/stubs/strutil.h>
-#include <google/protobuf/duration.pb.h>
-#include <google/protobuf/timestamp.pb.h>
-#include <google/protobuf/stubs/int128.h>
-#include <google/protobuf/stubs/time.h>
+#include "../stubs/stringprintf.h"
+#include "../stubs/strutil.h"
+#include "../duration.pb.h"
+#include "../timestamp.pb.h"
+#include "../stubs/int128.h"
+#include "../stubs/time.h"
 
 // Must go after other includes.
-#include <google/protobuf/port_def.inc>
+#include "../port_def.inc"
 
 namespace google {
 namespace protobuf {

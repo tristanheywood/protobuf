@@ -31,7 +31,7 @@
 #ifndef GOOGLE_PROTOBUF_MACROS_H__
 #define GOOGLE_PROTOBUF_MACROS_H__
 
-#include <google/protobuf/stubs/port.h>
+#include "../stubs/port.h"
 
 namespace google {
 namespace protobuf {

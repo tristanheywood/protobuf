@@ -28,20 +28,20 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include <google/protobuf/util/json_util.h>
+#include "../util/json_util.h"
 
 #include <list>
 #include <string>
 
-#include <google/protobuf/io/zero_copy_stream.h>
-#include <google/protobuf/io/zero_copy_stream_impl.h>
-#include <google/protobuf/descriptor_database.h>
-#include <google/protobuf/dynamic_message.h>
-#include <google/protobuf/util/internal/testdata/maps.pb.h>
-#include <google/protobuf/util/json_format.pb.h>
-#include <google/protobuf/util/json_format_proto3.pb.h>
-#include <google/protobuf/util/type_resolver.h>
-#include <google/protobuf/util/type_resolver_util.h>
+#include "../io/zero_copy_stream.h"
+#include "../io/zero_copy_stream_impl.h"
+#include "../descriptor_database.h"
+#include "../dynamic_message.h"
+#include "../util/internal/testdata/maps.pb.h"
+#include "../util/json_format.pb.h"
+#include "../util/json_format_proto3.pb.h"
+#include "../util/type_resolver.h"
+#include "../util/type_resolver_util.h"
 #include <gtest/gtest.h>
 
 namespace google {

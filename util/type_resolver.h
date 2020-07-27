@@ -35,11 +35,11 @@
 
 #include <string>
 
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/type.pb.h>
-#include <google/protobuf/stubs/status.h>
+#include "../stubs/common.h"
+#include "../type.pb.h"
+#include "../stubs/status.h"
 
-#include <google/protobuf/port_def.inc>
+#include "../port_def.inc"
 
 namespace google {
 namespace protobuf {
@@ -70,6 +70,6 @@ class PROTOBUF_EXPORT TypeResolver {
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "../port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_UTIL_TYPE_RESOLVER_H__

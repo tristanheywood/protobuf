@@ -33,12 +33,12 @@
 #ifndef GOOGLE_PROTOBUF_STUBS_STRUTIL_H__
 #define GOOGLE_PROTOBUF_STUBS_STRUTIL_H__
 
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/stubs/stringpiece.h>
+#include "../stubs/common.h"
+#include "../stubs/stringpiece.h"
 #include <stdlib.h>
 
 #include <cstring>
-#include <google/protobuf/port_def.inc>
+#include "../port_def.inc"
 #include <vector>
 
 namespace google {
@@ -942,6 +942,6 @@ double NoLocaleStrtod(const char* str, char** endptr);
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "../port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_STUBS_STRUTIL_H__

@@ -28,13 +28,13 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include <google/protobuf/util/field_mask_util.h>
+#include "../util/field_mask_util.h"
 
-#include <google/protobuf/message.h>
-#include <google/protobuf/stubs/strutil.h>
-#include <google/protobuf/stubs/map_util.h>
+#include "../message.h"
+#include "../stubs/strutil.h"
+#include "../stubs/map_util.h"
 
-#include <google/protobuf/port_def.inc>
+#include "../port_def.inc"
 
 namespace google {
 namespace protobuf {

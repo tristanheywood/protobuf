@@ -31,14 +31,14 @@
 // Author: kenton@google.com (Kenton Varda)
 
 #include <vector>
-#include <google/protobuf/stubs/callback.h>
-#include <google/protobuf/stubs/casts.h>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/strutil.h>
-#include <google/protobuf/stubs/substitute.h>
+#include "../stubs/callback.h"
+#include "../stubs/casts.h"
+#include "../stubs/common.h"
+#include "../stubs/logging.h"
+#include "../stubs/strutil.h"
+#include "../stubs/substitute.h"
 
-#include <google/protobuf/testing/googletest.h>
+#include "../testing/googletest.h"
 #include <gtest/gtest.h>
 
 namespace google {

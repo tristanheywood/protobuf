@@ -30,9 +30,9 @@
 
 // Author: jrm@google.com (Jim Meehan)
 
-#include <google/protobuf/stubs/common.h>
+#include "../stubs/common.h"
 
-#include <google/protobuf/stubs/stringpiece.h>
+#include "../stubs/stringpiece.h"
 
 namespace google {
 namespace protobuf {

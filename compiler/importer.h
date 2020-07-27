@@ -41,11 +41,11 @@
 #include <string>
 #include <utility>
 #include <vector>
-#include <google/protobuf/compiler/parser.h>
-#include <google/protobuf/descriptor.h>
-#include <google/protobuf/descriptor_database.h>
+#include "../compiler/parser.h"
+#include "../descriptor.h"
+#include "../descriptor_database.h"
 
-#include <google/protobuf/port_def.inc>
+#include "../port_def.inc"
 
 namespace google {
 namespace protobuf {
@@ -331,6 +331,6 @@ class PROTOBUF_EXPORT DiskSourceTree : public SourceTree {
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "../port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_COMPILER_IMPORTER_H__

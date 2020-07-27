@@ -42,11 +42,11 @@
 #include <sys/types.h>
 #include <unistd.h>
 #endif  // !_WIN32
-#include <google/protobuf/stubs/common.h>
+#include "../stubs/common.h"
 
 #include <string>
 
-#include <google/protobuf/port_def.inc>
+#include "../port_def.inc"
 
 namespace google {
 namespace protobuf {
@@ -108,6 +108,6 @@ class PROTOC_EXPORT Subprocess {
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "../port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_COMPILER_SUBPROCESS_H__

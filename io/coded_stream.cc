@@ -46,15 +46,15 @@
 #include <cstring>
 #include <utility>
 
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/arena.h>
-#include <google/protobuf/io/zero_copy_stream.h>
-#include <google/protobuf/io/zero_copy_stream_impl_lite.h>
-#include <google/protobuf/stubs/stl_util.h>
+#include "../stubs/logging.h"
+#include "../stubs/common.h"
+#include "../arena.h"
+#include "../io/zero_copy_stream.h"
+#include "../io/zero_copy_stream_impl_lite.h"
+#include "../stubs/stl_util.h"
 
 
-#include <google/protobuf/port_def.inc>
+#include "../port_def.inc"
 
 namespace google {
 namespace protobuf {

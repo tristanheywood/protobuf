@@ -35,12 +35,12 @@
 
 #include <string>
 
-#include <google/protobuf/field_mask.pb.h>
-#include <google/protobuf/descriptor.h>
-#include <google/protobuf/stubs/strutil.h>
+#include "../field_mask.pb.h"
+#include "../descriptor.h"
+#include "../stubs/strutil.h"
 
 // Must be included last.
-#include <google/protobuf/port_def.inc>
+#include "../port_def.inc"
 
 namespace google {
 namespace protobuf {
@@ -256,6 +256,6 @@ class PROTOBUF_EXPORT FieldMaskUtil::TrimOptions {
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "../port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_UTIL_FIELD_MASK_UTIL_H__

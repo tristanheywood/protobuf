@@ -30,7 +30,7 @@
 
 // Author: kenton@google.com (Kenton Varda)
 
-#include <google/protobuf/compiler/mock_code_generator.h>
+#include "../compiler/mock_code_generator.h"
 
 #include <stdlib.h>
 
@@ -38,21 +38,21 @@
 #include <memory>
 #include <vector>
 
-#include <google/protobuf/stubs/strutil.h>
+#include "../stubs/strutil.h"
 
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/testing/file.h>
-#include <google/protobuf/testing/file.h>
-#include <google/protobuf/testing/file.h>
-#include <google/protobuf/compiler/plugin.pb.h>
-#include <google/protobuf/io/printer.h>
-#include <google/protobuf/io/zero_copy_stream.h>
-#include <google/protobuf/descriptor.pb.h>
-#include <google/protobuf/descriptor.h>
-#include <google/protobuf/text_format.h>
+#include "../stubs/logging.h"
+#include "../stubs/common.h"
+#include "../testing/file.h"
+#include "../testing/file.h"
+#include "../testing/file.h"
+#include "../compiler/plugin.pb.h"
+#include "../io/printer.h"
+#include "../io/zero_copy_stream.h"
+#include "../descriptor.pb.h"
+#include "../descriptor.h"
+#include "../text_format.h"
 #include <gtest/gtest.h>
-#include <google/protobuf/stubs/substitute.h>
+#include "../stubs/substitute.h"
 
 #ifdef major
 #undef major

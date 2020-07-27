@@ -34,22 +34,22 @@
 //
 // This file contains tests and benchmarks.
 
-#include <google/protobuf/io/coded_stream.h>
+#include "../io/coded_stream.h"
 
 #include <limits.h>
 
 #include <memory>
 #include <vector>
 
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/io/zero_copy_stream_impl.h>
-#include <google/protobuf/testing/googletest.h>
+#include "../stubs/common.h"
+#include "../stubs/logging.h"
+#include "../stubs/logging.h"
+#include "../io/zero_copy_stream_impl.h"
+#include "../testing/googletest.h"
 #include <gtest/gtest.h>
-#include <google/protobuf/stubs/casts.h>
+#include "../stubs/casts.h"
 
-#include <google/protobuf/port_def.inc>
+#include "../port_def.inc"
 
 // This declares an unsigned long long integer literal in a portable way.
 // (The original macro is way too big and ruins my formatting.)

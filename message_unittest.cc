@@ -32,7 +32,7 @@
 //  Based on original Protocol Buffers design by
 //  Sanjay Ghemawat, Jeff Dean, and others.
 
-#include <google/protobuf/unittest.pb.h>
+#include "unittest.pb.h"
 
 #define MESSAGE_TEST_NAME MessageTest
 #define MESSAGE_FACTORY_TEST_NAME MessageFactoryTest
@@ -41,5 +41,5 @@
 #define UNITTEST_IMPORT ::protobuf_unittest_import
 
 // Must include after the above macros.
-#include <google/protobuf/test_util.inc>
-#include <google/protobuf/message_unittest.inc>
+#include "test_util.inc"
+#include "message_unittest.inc"

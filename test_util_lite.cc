@@ -32,12 +32,12 @@
 //  Based on original Protocol Buffers design by
 //  Sanjay Ghemawat, Jeff Dean, and others.
 
-#include <google/protobuf/test_util_lite.h>
+#include "test_util_lite.h"
 
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/common.h>
+#include "stubs/logging.h"
+#include "stubs/common.h"
 #include <gtest/gtest.h>
-#include <google/protobuf/stubs/strutil.h>
+#include "stubs/strutil.h"
 
 namespace google {
 namespace protobuf {

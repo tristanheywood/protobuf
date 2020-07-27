@@ -32,30 +32,30 @@
 //  Based on original Protocol Buffers design by
 //  Sanjay Ghemawat, Jeff Dean, and others.
 
-#include <google/protobuf/wire_format.h>
+#include "wire_format.h"
 
 #include <stack>
 #include <string>
 #include <vector>
 
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/stubs/stringprintf.h>
-#include <google/protobuf/descriptor.pb.h>
-#include <google/protobuf/parse_context.h>
-#include <google/protobuf/io/coded_stream.h>
-#include <google/protobuf/io/zero_copy_stream.h>
-#include <google/protobuf/io/zero_copy_stream_impl.h>
-#include <google/protobuf/descriptor.h>
-#include <google/protobuf/dynamic_message.h>
-#include <google/protobuf/map_field.h>
-#include <google/protobuf/map_field_inl.h>
-#include <google/protobuf/message.h>
-#include <google/protobuf/message_lite.h>
-#include <google/protobuf/unknown_field_set.h>
+#include "stubs/logging.h"
+#include "stubs/common.h"
+#include "stubs/stringprintf.h"
+#include "descriptor.pb.h"
+#include "parse_context.h"
+#include "io/coded_stream.h"
+#include "io/zero_copy_stream.h"
+#include "io/zero_copy_stream_impl.h"
+#include "descriptor.h"
+#include "dynamic_message.h"
+#include "map_field.h"
+#include "map_field_inl.h"
+#include "message.h"
+#include "message_lite.h"
+#include "unknown_field_set.h"
 
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 const size_t kMapEntryTagByteSize = 2;
 

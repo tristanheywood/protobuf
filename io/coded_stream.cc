@@ -38,7 +38,7 @@
 // will not cross the end of the buffer, since we can avoid a lot
 // of branching in this case.
 
-#include <google/protobuf/io/coded_stream.h>
+#include "coded_stream.h"
 
 #include <limits.h>
 

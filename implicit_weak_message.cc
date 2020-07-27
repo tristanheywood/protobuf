@@ -28,14 +28,14 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include <google/protobuf/implicit_weak_message.h>
+#include "implicit_weak_message.h"
 
-#include <google/protobuf/parse_context.h>
-#include <google/protobuf/io/zero_copy_stream_impl_lite.h>
-#include <google/protobuf/stubs/once.h>
-#include <google/protobuf/wire_format_lite.h>
+#include "parse_context.h"
+#include "io/zero_copy_stream_impl_lite.h"
+#include "stubs/once.h"
+#include "wire_format_lite.h"
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 namespace google {
 namespace protobuf {

@@ -31,10 +31,10 @@
 #ifndef GOOGLE_PROTOBUF_HAS_BITS_H__
 #define GOOGLE_PROTOBUF_HAS_BITS_H__
 
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/port.h>
+#include "stubs/common.h"
+#include "port.h"
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 #ifdef SWIG
 #error "You cannot SWIG proto headers"
@@ -111,6 +111,6 @@ inline bool HasBits<doublewords>::empty() const {
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_HAS_BITS_H__

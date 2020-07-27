@@ -43,13 +43,13 @@
 #include <string>
 #include <vector>
 
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/descriptor.h>
-#include <google/protobuf/message.h>
-#include <google/protobuf/message_lite.h>
-#include <google/protobuf/port.h>
+#include "stubs/common.h"
+#include "descriptor.h"
+#include "message.h"
+#include "message_lite.h"
+#include "port.h"
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 #ifdef SWIG
 #error "You cannot SWIG proto headers"
@@ -641,6 +641,6 @@ inline TextFormat::ParseInfoTree* TextFormat::CreateNested(
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_TEXT_FORMAT_H__

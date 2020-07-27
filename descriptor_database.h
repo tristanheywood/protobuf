@@ -41,10 +41,10 @@
 #include <string>
 #include <utility>
 #include <vector>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/descriptor.h>
+#include "stubs/common.h"
+#include "descriptor.h"
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 #ifdef SWIG
 #error "You cannot SWIG proto headers"
@@ -389,6 +389,6 @@ class PROTOBUF_EXPORT MergedDescriptorDatabase : public DescriptorDatabase {
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_DESCRIPTOR_DATABASE_H__

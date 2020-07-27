@@ -35,13 +35,13 @@
 #include <type_traits>
 #include <utility>
 
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/stubs/fastmem.h>
-#include <google/protobuf/arena.h>
-#include <google/protobuf/port.h>
+#include "stubs/logging.h"
+#include "stubs/common.h"
+#include "stubs/fastmem.h"
+#include "arena.h"
+#include "port.h"
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 #ifdef SWIG
 #error "You cannot SWIG proto headers"
@@ -400,6 +400,6 @@ inline void ArenaStringPtr::AssignWithDefault(
 }  // namespace google
 
 
-#include <google/protobuf/port_undef.inc>
+#include "port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_ARENASTRING_H__

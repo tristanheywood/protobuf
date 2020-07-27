@@ -32,7 +32,7 @@
 //  Based on original Protocol Buffers design by
 //  Sanjay Ghemawat, Jeff Dean, and others.
 
-#include <google/protobuf/descriptor.h>
+#include "descriptor.h"
 
 #include <algorithm>
 #include <functional>
@@ -45,31 +45,31 @@
 #include <unordered_set>
 #include <vector>
 
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/stringprintf.h>
-#include <google/protobuf/stubs/strutil.h>
-#include <google/protobuf/descriptor.pb.h>
-#include <google/protobuf/io/coded_stream.h>
-#include <google/protobuf/io/tokenizer.h>
-#include <google/protobuf/io/zero_copy_stream_impl.h>
-#include <google/protobuf/descriptor_database.h>
-#include <google/protobuf/dynamic_message.h>
-#include <google/protobuf/generated_message_util.h>
-#include <google/protobuf/text_format.h>
-#include <google/protobuf/unknown_field_set.h>
-#include <google/protobuf/wire_format.h>
-#include <google/protobuf/stubs/casts.h>
-#include <google/protobuf/stubs/substitute.h>
-#include <google/protobuf/io/strtod.h>
-#include <google/protobuf/stubs/map_util.h>
-#include <google/protobuf/stubs/stl_util.h>
-#include <google/protobuf/stubs/hash.h>
+#include "stubs/common.h"
+#include "stubs/logging.h"
+#include "stubs/stringprintf.h"
+#include "stubs/strutil.h"
+#include "descriptor.pb.h"
+#include "io/coded_stream.h"
+#include "io/tokenizer.h"
+#include "io/zero_copy_stream_impl.h"
+#include "descriptor_database.h"
+#include "dynamic_message.h"
+#include "generated_message_util.h"
+#include "text_format.h"
+#include "unknown_field_set.h"
+#include "wire_format.h"
+#include "stubs/casts.h"
+#include "stubs/substitute.h"
+#include "io/strtod.h"
+#include "stubs/map_util.h"
+#include "stubs/stl_util.h"
+#include "stubs/hash.h"
 
 #undef PACKAGE  // autoheader #defines this.  :(
 
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 namespace google {
 namespace protobuf {

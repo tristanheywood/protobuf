@@ -57,17 +57,17 @@
 #include <string>
 #include <type_traits>
 
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/arena.h>
-#include <google/protobuf/message_lite.h>
-#include <google/protobuf/port.h>
-#include <google/protobuf/stubs/casts.h>
+#include "stubs/logging.h"
+#include "stubs/common.h"
+#include "arena.h"
+#include "message_lite.h"
+#include "port.h"
+#include "stubs/casts.h"
 #include <type_traits>
 
 
 // Must be included last.
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 #ifdef SWIG
 #error "You cannot SWIG proto headers"
@@ -2843,6 +2843,6 @@ extern template class PROTOBUF_EXPORT_TEMPLATE_DECLARE
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_REPEATED_FIELD_H__

@@ -35,7 +35,7 @@
 // TODO(kenton):  Improve this unittest to bring it up to the standards of
 //   other proto2 unittests.
 
-#include <google/protobuf/repeated_field.h>
+#include "repeated_field.h"
 
 #include <algorithm>
 #include <cstdlib>
@@ -46,17 +46,17 @@
 #include <type_traits>
 #include <vector>
 
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/unittest.pb.h>
-#include <google/protobuf/stubs/strutil.h>
+#include "stubs/logging.h"
+#include "stubs/common.h"
+#include "unittest.pb.h"
+#include "stubs/strutil.h"
 #include <gmock/gmock.h>
-#include <google/protobuf/testing/googletest.h>
+#include "testing/googletest.h"
 #include <gtest/gtest.h>
-#include <google/protobuf/stubs/stl_util.h>
+#include "stubs/stl_util.h"
 
 // Must be included last.
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 namespace google {
 namespace protobuf {

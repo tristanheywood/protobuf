@@ -45,19 +45,19 @@
 #include <string>
 #include <vector>
 
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/any.h>
-#include <google/protobuf/has_bits.h>
-#include <google/protobuf/implicit_weak_message.h>
-#include <google/protobuf/message_lite.h>
-#include <google/protobuf/stubs/once.h>  // Add direct dep on port for pb.cc
-#include <google/protobuf/port.h>
-#include <google/protobuf/repeated_field.h>
-#include <google/protobuf/wire_format_lite.h>
-#include <google/protobuf/stubs/strutil.h>
-#include <google/protobuf/stubs/casts.h>
+#include "stubs/common.h"
+#include "any.h"
+#include "has_bits.h"
+#include "implicit_weak_message.h"
+#include "message_lite.h"
+#include "stubs/once.h"  // Add direct dep on port for pb.cc
+#include "port.h"
+#include "repeated_field.h"
+#include "wire_format_lite.h"
+#include "stubs/strutil.h"
+#include "stubs/casts.h"
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 #ifdef SWIG
 #error "You cannot SWIG proto headers"
@@ -255,6 +255,6 @@ inline void OnShutdownDestroyString(const std::string* ptr) {
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_GENERATED_MESSAGE_UTIL_H__

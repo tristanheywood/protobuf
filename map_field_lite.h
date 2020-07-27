@@ -32,14 +32,14 @@
 #define GOOGLE_PROTOBUF_MAP_FIELD_LITE_H__
 
 #include <type_traits>
-#include <google/protobuf/parse_context.h>
-#include <google/protobuf/io/coded_stream.h>
-#include <google/protobuf/map.h>
-#include <google/protobuf/map_entry_lite.h>
-#include <google/protobuf/port.h>
-#include <google/protobuf/wire_format_lite.h>
+#include "parse_context.h"
+#include "io/coded_stream.h"
+#include "map.h"
+#include "map_entry_lite.h"
+#include "port.h"
+#include "wire_format_lite.h"
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 #ifdef SWIG
 #error "You cannot SWIG proto headers"
@@ -185,6 +185,6 @@ struct MapEntryToMapField<MapEntryLite<T, Key, Value, kKeyFieldType,
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_MAP_FIELD_LITE_H__

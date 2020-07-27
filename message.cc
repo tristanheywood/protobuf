@@ -32,35 +32,35 @@
 //  Based on original Protocol Buffers design by
 //  Sanjay Ghemawat, Jeff Dean, and others.
 
-#include <google/protobuf/message.h>
+#include "message.h"
 
 #include <iostream>
 #include <stack>
 #include <unordered_map>
 
-#include <google/protobuf/stubs/casts.h>
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/descriptor.pb.h>
-#include <google/protobuf/parse_context.h>
-#include <google/protobuf/reflection_internal.h>
-#include <google/protobuf/io/coded_stream.h>
-#include <google/protobuf/io/zero_copy_stream_impl.h>
-#include <google/protobuf/descriptor.h>
-#include <google/protobuf/generated_message_reflection.h>
-#include <google/protobuf/generated_message_util.h>
-#include <google/protobuf/map_field.h>
-#include <google/protobuf/map_field_inl.h>
-#include <google/protobuf/reflection_ops.h>
-#include <google/protobuf/unknown_field_set.h>
-#include <google/protobuf/wire_format.h>
-#include <google/protobuf/wire_format_lite.h>
-#include <google/protobuf/stubs/strutil.h>
-#include <google/protobuf/stubs/map_util.h>
-#include <google/protobuf/stubs/stl_util.h>
-#include <google/protobuf/stubs/hash.h>
+#include "stubs/casts.h"
+#include "stubs/logging.h"
+#include "stubs/common.h"
+#include "descriptor.pb.h"
+#include "parse_context.h"
+#include "reflection_internal.h"
+#include "io/coded_stream.h"
+#include "io/zero_copy_stream_impl.h"
+#include "descriptor.h"
+#include "generated_message_reflection.h"
+#include "generated_message_util.h"
+#include "map_field.h"
+#include "map_field_inl.h"
+#include "reflection_ops.h"
+#include "unknown_field_set.h"
+#include "wire_format.h"
+#include "wire_format_lite.h"
+#include "stubs/strutil.h"
+#include "stubs/map_util.h"
+#include "stubs/stl_util.h"
+#include "stubs/hash.h"
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 namespace google {
 namespace protobuf {

@@ -34,21 +34,21 @@
 #include <atomic>
 #include <functional>
 
-#include <google/protobuf/arena.h>
-#include <google/protobuf/descriptor.h>
-#include <google/protobuf/generated_message_reflection.h>
-#include <google/protobuf/generated_message_util.h>
-#include <google/protobuf/map_entry.h>
-#include <google/protobuf/map_field_lite.h>
-#include <google/protobuf/map_type_handler.h>
-#include <google/protobuf/message.h>
-#include <google/protobuf/stubs/mutex.h>
-#include <google/protobuf/port.h>
-#include <google/protobuf/repeated_field.h>
-#include <google/protobuf/unknown_field_set.h>
+#include "arena.h"
+#include "descriptor.h"
+#include "generated_message_reflection.h"
+#include "generated_message_util.h"
+#include "map_entry.h"
+#include "map_field_lite.h"
+#include "map_type_handler.h"
+#include "message.h"
+#include "stubs/mutex.h"
+#include "port.h"
+#include "repeated_field.h"
+#include "unknown_field_set.h"
 
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 #ifdef SWIG
 #error "You cannot SWIG proto headers"
@@ -839,6 +839,6 @@ struct hash<::PROTOBUF_NAMESPACE_ID::MapKey> {
   }
 };
 }  // namespace std
-#include <google/protobuf/port_undef.inc>
+#include "port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_MAP_FIELD_H__

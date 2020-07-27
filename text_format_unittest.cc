@@ -32,7 +32,7 @@
 //  Based on original Protocol Buffers design by
 //  Sanjay Ghemawat, Jeff Dean, and others.
 
-#include <google/protobuf/text_format.h>
+#include "text_format.h"
 
 #include <math.h>
 #include <stdlib.h>
@@ -40,28 +40,28 @@
 #include <limits>
 #include <memory>
 
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/testing/file.h>
-#include <google/protobuf/testing/file.h>
-#include <google/protobuf/map_unittest.pb.h>
-#include <google/protobuf/test_util.h>
-#include <google/protobuf/test_util2.h>
-#include <google/protobuf/unittest.pb.h>
-#include <google/protobuf/unittest_mset.pb.h>
-#include <google/protobuf/unittest_mset_wire_format.pb.h>
-#include <google/protobuf/unittest_proto3.pb.h>
-#include <google/protobuf/io/tokenizer.h>
-#include <google/protobuf/io/zero_copy_stream_impl.h>
-#include <google/protobuf/stubs/strutil.h>
+#include "stubs/logging.h"
+#include "stubs/common.h"
+#include "stubs/logging.h"
+#include "testing/file.h"
+#include "testing/file.h"
+#include "map_unittest.pb.h"
+#include "test_util.h"
+#include "test_util2.h"
+#include "unittest.pb.h"
+#include "unittest_mset.pb.h"
+#include "unittest_mset_wire_format.pb.h"
+#include "unittest_proto3.pb.h"
+#include "io/tokenizer.h"
+#include "io/zero_copy_stream_impl.h"
+#include "stubs/strutil.h"
 #include <gmock/gmock.h>
-#include <google/protobuf/testing/googletest.h>
+#include "testing/googletest.h"
 #include <gtest/gtest.h>
-#include <google/protobuf/stubs/substitute.h>
+#include "stubs/substitute.h"
 
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 namespace google {
 namespace protobuf {

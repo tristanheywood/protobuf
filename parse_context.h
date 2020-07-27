@@ -35,18 +35,18 @@
 #include <cstring>
 #include <string>
 
-#include <google/protobuf/io/coded_stream.h>
-#include <google/protobuf/io/zero_copy_stream.h>
-#include <google/protobuf/arena.h>
-#include <google/protobuf/arenastring.h>
-#include <google/protobuf/implicit_weak_message.h>
-#include <google/protobuf/metadata_lite.h>
-#include <google/protobuf/port.h>
-#include <google/protobuf/repeated_field.h>
-#include <google/protobuf/wire_format_lite.h>
-#include <google/protobuf/stubs/strutil.h>
+#include "io/coded_stream.h"
+#include "io/zero_copy_stream.h"
+#include "arena.h"
+#include "arenastring.h"
+#include "implicit_weak_message.h"
+#include "metadata_lite.h"
+#include "port.h"
+#include "repeated_field.h"
+#include "wire_format_lite.h"
+#include "stubs/strutil.h"
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 
 namespace google {
@@ -800,6 +800,6 @@ PROTOBUF_EXPORT PROTOBUF_MUST_USE_RESULT const char* UnknownFieldParse(
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_PARSE_CONTEXT_H__

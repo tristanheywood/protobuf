@@ -41,21 +41,21 @@
 
 #include <string>
 
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/parse_context.h>
-#include <google/protobuf/io/coded_stream.h>
-#include <google/protobuf/descriptor.h>
-#include <google/protobuf/generated_message_util.h>
-#include <google/protobuf/message.h>
-#include <google/protobuf/metadata_lite.h>
-#include <google/protobuf/wire_format_lite.h>
-#include <google/protobuf/stubs/casts.h>
+#include "stubs/common.h"
+#include "parse_context.h"
+#include "io/coded_stream.h"
+#include "descriptor.h"
+#include "generated_message_util.h"
+#include "message.h"
+#include "metadata_lite.h"
+#include "wire_format_lite.h"
+#include "stubs/casts.h"
 
 #ifdef SWIG
 #error "You cannot SWIG proto headers"
 #endif
 
-#include <google/protobuf/port_def.inc>
+#include "port_def.inc"
 
 namespace google {
 namespace protobuf {
@@ -402,6 +402,6 @@ size_t ComputeUnknownFieldsSize(const InternalMetadata& metadata, size_t size,
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_WIRE_FORMAT_H__

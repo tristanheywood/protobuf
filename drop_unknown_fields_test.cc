@@ -30,9 +30,9 @@
 
 #include <memory>
 
-#include <google/protobuf/unittest_drop_unknown_fields.pb.h>
-#include <google/protobuf/dynamic_message.h>
-#include <google/protobuf/message_lite.h>
+#include "unittest_drop_unknown_fields.pb.h"
+#include "dynamic_message.h"
+#include "message_lite.h"
 #include <gtest/gtest.h>
 
 using unittest_drop_unknown_fields::Foo;

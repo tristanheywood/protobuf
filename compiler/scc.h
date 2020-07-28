@@ -33,11 +33,11 @@
 
 #include <map>
 
-#include <google/protobuf/stubs/logging.h>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/descriptor.h>
+#include "../stubs/logging.h"
+#include "../stubs/common.h"
+#include "../descriptor.h"
 
-#include <google/protobuf/port_def.inc>
+#include "../port_def.inc"
 
 namespace google {
 namespace protobuf {
@@ -159,6 +159,6 @@ class PROTOC_EXPORT SCCAnalyzer {
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "../port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_COMPILER_SCC_H__

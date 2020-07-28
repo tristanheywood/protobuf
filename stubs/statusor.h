@@ -87,9 +87,9 @@
 #include <string>
 #include <utility>
 
-#include <google/protobuf/stubs/status.h>
+#include "../stubs/status.h"
 
-#include <google/protobuf/port_def.inc>
+#include "../port_def.inc"
 
 namespace google {
 namespace protobuf {
@@ -267,6 +267,6 @@ inline const T& StatusOr<T>::value() const {
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "../port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_STUBS_STATUSOR_H_

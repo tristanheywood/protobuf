@@ -35,8 +35,8 @@
 
 #include <stdlib.h>
 #include <string>
-#include <google/protobuf/compiler/mock_code_generator.h>
-#include <google/protobuf/compiler/plugin.h>
+#include "../compiler/mock_code_generator.h"
+#include "../compiler/plugin.h"
 
 namespace google {
 namespace protobuf {

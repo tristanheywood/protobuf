@@ -41,9 +41,9 @@
 #include <string>
 #include <utility>
 #include <vector>
-#include <google/protobuf/stubs/common.h>
+#include "../stubs/common.h"
 
-#include <google/protobuf/port_def.inc>
+#include "../port_def.inc"
 
 namespace google {
 namespace protobuf {
@@ -187,6 +187,6 @@ PROTOC_EXPORT void ParseGeneratorParameter(
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "../port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_COMPILER_CODE_GENERATOR_H__

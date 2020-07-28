@@ -30,9 +30,9 @@
 #ifndef GOOGLE_PROTOBUF_STUBS_TIME_H_
 #define GOOGLE_PROTOBUF_STUBS_TIME_H_
 
-#include <google/protobuf/stubs/common.h>
+#include "../stubs/common.h"
 
-#include <google/protobuf/port_def.inc>
+#include "../port_def.inc"
 
 namespace google {
 namespace protobuf {
@@ -75,6 +75,6 @@ bool PROTOBUF_EXPORT ParseTime(const string& value, int64* seconds,
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "../port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_STUBS_TIME_H_

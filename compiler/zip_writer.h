@@ -31,8 +31,8 @@
 // Author: kenton@google.com (Kenton Varda)
 
 #include <vector>
-#include <google/protobuf/stubs/common.h>
-#include <google/protobuf/io/zero_copy_stream.h>
+#include "../stubs/common.h"
+#include "../io/zero_copy_stream.h"
 
 namespace google {
 namespace protobuf {

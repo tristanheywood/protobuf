@@ -30,12 +30,12 @@
 
 // Author: kenton@google.com (Kenton Varda)
 
-#include <google/protobuf/stubs/strutil.h>
+#include "../stubs/strutil.h"
 
 #include <locale.h>
 
-#include <google/protobuf/stubs/stl_util.h>
-#include <google/protobuf/testing/googletest.h>
+#include "../stubs/stl_util.h"
+#include "../testing/googletest.h"
 #include <gtest/gtest.h>
 
 #ifdef _WIN32

@@ -31,9 +31,9 @@
 #ifndef GOOGLE_PROTOBUF_CASTS_H__
 #define GOOGLE_PROTOBUF_CASTS_H__
 
-#include <google/protobuf/stubs/common.h>
+#include "../stubs/common.h"
 
-#include <google/protobuf/port_def.inc>
+#include "../port_def.inc"
 #include <type_traits>
 
 namespace google {
@@ -134,6 +134,6 @@ using internal::bit_cast;
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "../port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_CASTS_H__

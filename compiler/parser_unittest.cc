@@ -32,25 +32,25 @@
 //  Based on original Protocol Buffers design by
 //  Sanjay Ghemawat, Jeff Dean, and others.
 
-#include <google/protobuf/compiler/parser.h>
+#include "../compiler/parser.h"
 
 #include <algorithm>
 #include <map>
 #include <memory>
 #include <vector>
 
-#include <google/protobuf/test_util2.h>
-#include <google/protobuf/unittest.pb.h>
-#include <google/protobuf/unittest_custom_options.pb.h>
-#include <google/protobuf/io/tokenizer.h>
-#include <google/protobuf/io/zero_copy_stream_impl.h>
-#include <google/protobuf/descriptor.pb.h>
-#include <google/protobuf/text_format.h>
-#include <google/protobuf/wire_format.h>
-#include <google/protobuf/testing/googletest.h>
+#include "../test_util2.h"
+#include "../unittest.pb.h"
+#include "../unittest_custom_options.pb.h"
+#include "../io/tokenizer.h"
+#include "../io/zero_copy_stream_impl.h"
+#include "../descriptor.pb.h"
+#include "../text_format.h"
+#include "../wire_format.h"
+#include "../testing/googletest.h"
 #include <gtest/gtest.h>
-#include <google/protobuf/stubs/substitute.h>
-#include <google/protobuf/stubs/map_util.h>
+#include "../stubs/substitute.h"
+#include "../stubs/map_util.h"
 
 namespace google {
 namespace protobuf {

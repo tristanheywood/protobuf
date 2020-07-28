@@ -3,9 +3,9 @@
 
 #include <type_traits>
 
-#include <google/protobuf/stubs/macros.h>
+#include "../stubs/macros.h"
 
-#include <google/protobuf/port_def.inc>
+#include "../port_def.inc"
 
 // ===================================================================
 // emulates google3/base/callback.h
@@ -578,6 +578,6 @@ void PROTOBUF_EXPORT DoNothing();
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "../port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_STUBS_CALLBACK_H_

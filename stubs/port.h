@@ -38,9 +38,9 @@
 #include <string>
 #include <string.h>
 
-#include <google/protobuf/stubs/platform_macros.h>
+#include "../stubs/platform_macros.h"
 
-#include <google/protobuf/port_def.inc>
+#include "../port_def.inc"
 
 #undef PROTOBUF_LITTLE_ENDIAN
 #ifdef _WIN32
@@ -400,6 +400,6 @@ class BigEndian {
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "../port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_STUBS_PORT_H_

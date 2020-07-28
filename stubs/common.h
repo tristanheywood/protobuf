@@ -43,10 +43,10 @@
 #include <string>
 #include <vector>
 
-#include <google/protobuf/stubs/macros.h>
-#include <google/protobuf/stubs/platform_macros.h>
-#include <google/protobuf/stubs/port.h>
-#include <google/protobuf/stubs/stringpiece.h>
+#include "../stubs/macros.h"
+#include "../stubs/platform_macros.h"
+#include "../stubs/port.h"
+#include "../stubs/stringpiece.h"
 
 #ifndef PROTOBUF_USE_EXCEPTIONS
 #if defined(_MSC_VER) && defined(_CPPUNWIND)
@@ -69,7 +69,7 @@
 #include <pthread.h>
 #endif
 
-#include <google/protobuf/port_def.inc>
+#include "../port_def.inc"
 
 namespace std {}
 
@@ -197,6 +197,6 @@ using std::string;
 }  // namespace protobuf
 }  // namespace google
 
-#include <google/protobuf/port_undef.inc>
+#include "../port_undef.inc"
 
 #endif  // GOOGLE_PROTOBUF_COMMON_H__
